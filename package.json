@@ -10,6 +10,8 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"dev": "npm run dev -w backend",
 		"i": "npm install -w backend",
+		"build": "npm run build -w backend",
+		"start": "npm run start -w backend",
 		"format": "prettier --write ."
 	},
 	"repository": {
