@@ -1,0 +1,17 @@
+### Get station
+GET http://localhost/radiostation?id=1 HTTP/1.1
+
+### Make station
+POST http://localhost/radiostation HTTP/1.1
+Host: localhost
+Content-Type: application/json
+
+{
+  "naam": "Radio Station"
+}
+
+### Get stations
+GET http://localhost/radio HTTP/1.1
+
+### Delete station
+DELETE http://localhost/radiostation?id=1 HTTP/1.1
